@@ -17,6 +17,7 @@ import RomeoAndJuliet from './stories/RomeoAndJuliet';
 import StoryOfAnHour from './stories/StoryOfAnHour';
 import VillageByTheSea from './stories/VillageByTheSea';
 import ScrollToTop from './ScrollToTop';
+import NoPage from './pages/NoPage';
 
 function App() {
   return (
@@ -40,6 +41,8 @@ function App() {
           <Route path="/RomeoAndJuliet" element={RomeoAndJuliet} />
           <Route path="/StoryOfAnHour" element={StoryOfAnHour} />
           <Route path="/VillageByTheSea" element={VillageByTheSea} />
+
+          <Route path="*" element={NoPage} />
         </Switch>
       </div>
     </Router>

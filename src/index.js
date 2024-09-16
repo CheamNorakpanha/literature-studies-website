@@ -28,7 +28,6 @@ export default function App() {
           <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} />
 
           {/* Story */}
           <Route path="DesireesBaby" element={<DesireesBaby />} />
@@ -43,6 +42,8 @@ export default function App() {
           <Route path="RomeoAndJuliet" element={<RomeoAndJuliet />} />
           <Route path="StoryOfAnHour" element={<StoryOfAnHour />} />
           <Route path="VillageByTheSea" element={<VillageByTheSea />} />
+
+          <Route path="*" element={<NoPage/>} />
         </Route>
       </Routes>
     </BrowserRouter>

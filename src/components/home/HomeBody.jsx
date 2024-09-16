@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from 'react-router-dom';
-import Records from '../../records.json';
+import Records from '../../json/records.json';
 
 function HomeBody() {
     const [searchTerm, setSearchTerm] = useState("");
