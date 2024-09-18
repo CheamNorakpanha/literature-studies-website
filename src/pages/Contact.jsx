@@ -9,7 +9,7 @@ const Contact = () => {
     }, []);
 
     return (
-        <div className="pt-5 bg-body-tertiary">
+        <div className="pt-5">
             <ContactForm />
 
             <div className="my-5">

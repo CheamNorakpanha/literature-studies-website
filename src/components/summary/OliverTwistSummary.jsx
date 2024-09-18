@@ -12,7 +12,7 @@ function OliverTwistSummary() {
                 <h3 className="mb-4 fw-semibold text-center">Summary</h3>
 
                 {/* paragraph 1 */}
-                <p className="fs-5">Oliver Twist begins in a workhouse in 1830s England, in an unnamed village, where a young
+                <p className="fs-5 pb-2">Oliver Twist begins in a workhouse in 1830s England, in an unnamed village, where a young
                     woman, revealed to be Oliver's mother, gives birth to her son and promptly dies. The boy, lucky to
                     survive, is raised until the age of nine on a "farm" for young orphaned children and then is sent to the
                     local workhouse again, where he labors for a time until his innocent request for more food so angers the
@@ -23,7 +23,7 @@ function OliverTwistSummary() {
                     runs away to London to make his fortune.</p>
 
                 {/* paragraph 2 */}
-                <p className="fs-5">Near London, Oliver meets a well-dressed young boy who introduces himself as the Artful
+                <p className="fs-5 pb-2">Near London, Oliver meets a well-dressed young boy who introduces himself as the Artful
                     Dodger, a thief under the employ of a local crime boss named Fagin. The Dodger takes Oliver to Fagin,
                     who promises to help Oliver but holds him hostage and forces him to go on a thieving mission with the
                     Dodger and Bates, another young criminal. Bates and Dodger try to steal the handkerchief of an old man,
@@ -35,7 +35,7 @@ function OliverTwistSummary() {
                     to the criminal gang.</p>
 
                 {/* paragraph 3 */}
-                <p className="fs-5">The remainder of the novel comprises Brownlow's attempts to find Oliver and Oliver's
+                <p className="fs-5 pb-2">The remainder of the novel comprises Brownlow's attempts to find Oliver and Oliver's
                     attempts to escape Fagin, his criminal associate Sikes, and the other boys. Fagin orders Oliver to
                     accompany Sikes and another thief named Toby Crackit on a house-breaking in a country village that goes
                     awry; Oliver is shot in the arm in the attempt by a servant named Giles of the Maylie house (the house
@@ -48,7 +48,7 @@ function OliverTwistSummary() {
                     from the West Indies.</p>
 
                 {/* paragraph 4 */}
-                <p className="fs-5">Meanwhile, Mrs. Corney, mistress of the workhouse, receives a package from a dying woman
+                <p className="fs-5 pb-2">Meanwhile, Mrs. Corney, mistress of the workhouse, receives a package from a dying woman
                     named Old Sally, which Sally in turn receives from Oliver's mother upon her death. The package contains
                     material indicating Oliver's family history, which is of interest to a friend and shadowy associate of
                     Fagin's named Monks. Nancy meets with Rose and Brownlow in secret in London to discuss what she has
@@ -58,7 +58,7 @@ function OliverTwistSummary() {
                     rage, kills Nancy, then goes on the lam with his dog.</p>
 
                 {/* paragraph 5 */}
-                <p className="fs-5">Brownlow realizes that he recognized Oliver as resembling the picture of a woman in his
+                <p className="fs-5 pb-2">Brownlow realizes that he recognized Oliver as resembling the picture of a woman in his
                     parlor and also recognized a man he came to realize was Monks. Brownlow pieces together the mystery of
                     Oliver's parentage: Oliver's father is also Monk's father, and Monk's mother defrauded Oliver's mother,
                     an unwed woman named Agnes, of the inheritance Oliver's father, Edwin, intended to leave to Oliver and
@@ -67,7 +67,7 @@ function OliverTwistSummary() {
                     admitting his part in the conspiracy to defraud Oliver.</p>
 
                 {/* paragraph 6 */}
-                <p className="fs-5">Meanwhile, the members of Fagin's gang are all caught: Noah; Charlotte, his partner; the
+                <p className="fs-5 pb-2">Meanwhile, the members of Fagin's gang are all caught: Noah; Charlotte, his partner; the
                     Dodger; and Fagin himself. Sikes dies by accident, attempting to escape a mob that has come to kill him
                     following Nancy's death. Brownlow manages to secure half of Oliver's inheritance for Oliver and gives
                     the other half to Monks, who spend it in the New World on criminal activity. Rose Maylie, long in love
@@ -76,7 +76,7 @@ function OliverTwistSummary() {
                     this "blight" is revealed: Rose's sister was Agnes, meaning that Rose is Oliver's aunt.</p>
 
                 {/* paragraph 7 */}
-                <p className="fs-5">At the novel's end, Oliver is restored to his rightful lineage and is adopted by Brownlow.
+                <p className="fs-5 pb-2">At the novel's end, Oliver is restored to his rightful lineage and is adopted by Brownlow.
                     The pair live in the country with Harry, who has become a parson, and Rose, along with Losborne and Mrs.
                     Maylie. Oliver can, at last, be educated in the tranquility and manner he deserves as the son of a
                     gentleman.</p>
@@ -90,10 +90,10 @@ function OliverTwistSummary() {
                             https://www.litcharts.com/lit/oliver-twist/summary
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
+                                <path fillRule="evenodd"
                                     d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5">
                                 </path>
-                                <path fill-rule="evenodd"
+                                <path fillRule="evenodd"
                                     d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z">
                                 </path>
                             </svg>

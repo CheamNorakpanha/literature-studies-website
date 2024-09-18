@@ -12,19 +12,19 @@ function HappyPrinceSummary() {
                 <h3 className="mb-4 fw-semibold text-center">Summary</h3>
 
                 {/* Paragraph 1 */}
-                <p className="fs-5">The Happy Prince of the story's title refers to a statue made of lead but painted all over
+                <p className="fs-5 pb-2">The Happy Prince of the story's title refers to a statue made of lead but painted all over
                     with gold. The statue's eyes are sapphires, and in the hilt of the sword he holds is a bright red ruby.
                     The statue stands high above a city and is admired by those who live there because he looks happy and
                     'like an angel'.</p>
 
                 {/* Paragraph 2 */}
-                <p className="fs-5">One night, a swallow flies over the city, having stayed behind in northern Europe when his
+                <p className="fs-5 pb-2">One night, a swallow flies over the city, having stayed behind in northern Europe when his
                     friends flew south to Egypt for the winter. The Swallow had stayed behind for love; he is in love with a
                     Reed he met in the spring. However, he begins to tire of Reed because she flirts with the wind every
                     time it blows, and when he asks her if she will come away with him, she appears to shake her head.</p>
 
                 {/* Paragraph 3 */}
-                <p className="fs-5">The swallow flies south, stopping the following night to rest. It just so happens that he
+                <p className="fs-5 pb-2">The swallow flies south, stopping the following night to rest. It just so happens that he
                     arrives in the city where the statue of the Happy Prince is located. He decides to sleep underneath the
                     statue of the Happy Prince that night, but when the statue starts to cry on him, he strikes up a
                     conversation with it. It turns out the Happy Prince isn't so happy. In life, he had been a wealthy and
@@ -33,27 +33,27 @@ function HappyPrinceSummary() {
                     realize how many people suffer and struggle.</p>
 
                 {/* Paragraph 4 */}
-                <p className="fs-5">He tells the Swallow to take the ruby from his sword hilt and deliver it to a poor
+                <p className="fs-5 pb-2">He tells the Swallow to take the ruby from his sword hilt and deliver it to a poor
                     seamstress whose son is ill. The swallow reluctantly agrees. When he returns, he tells the Happy Prince
                     what he has done and that he feels warm, even though the air is cold. The Happy Prince tells him that he
                     has been warmed inside because he has done a good deed.</p>
 
                 {/* Paragraph 5 */}
-                <p className="fs-5">The next day, the Swallow prepares to bid the Happy Prince farewell as he must fly to Egypt
+                <p className="fs-5 pb-2">The next day, the Swallow prepares to bid the Happy Prince farewell as he must fly to Egypt
                     to join his friends. But the Happy Prince persuades him to take the sapphire out of one of his eye
                     sockets and take it to the poor young man, who is so poor he is freezing in his garret and cannot finish
                     the play he is writing. Once again, the Swallow does as the statue requests—though again, he does so
                     reluctantly, this time because he doesn't want to rob the Happy Prince of one of his eyes.</p>
 
                 {/* Paragraph 6 */}
-                <p className="fs-5">The next day, the Swallow once again says he must leave the Happy Prince and fly to Egypt,
+                <p className="fs-5 pb-2">The next day, the Swallow once again says he must leave the Happy Prince and fly to Egypt,
                     but the Happy Prince persuades the Swallow to remove the other sapphire from his eye socket and take it
                     to the little match girl, who has dropped her matches in the gutter and will be beaten if she returns
                     home empty-handed. The Swallow doesn't want to remove the statue's second sapphire because it will leave
                     the Happy Prince blind, but the Prince insists.</p>
 
                 {/* Paragraph 7 */}
-                <p className="fs-5">Finally, the Happy Prince, having heard from the Swallow that children are starving in the
+                <p className="fs-5 pb-2">Finally, the Happy Prince, having heard from the Swallow that children are starving in the
                     city streets, insists that the Swallow remove the gold leaf that covers him and take it to the children
                     so they can buy food with it. When the Swallow returns, having done this deed, he grows colder and
                     colder, and, after kissing the Happy Prince on the lips, he drops down dead at his feet. The prince dies
@@ -64,7 +64,7 @@ function HappyPrinceSummary() {
                     Councilors, naturally).</p>
 
                 {/* Paragraph 8 */}
-                <p className="fs-5">But God, watching from heaven, tells one of his angels to bring him the two most precious
+                <p className="fs-5 pb-2">But God, watching from heaven, tells one of his angels to bring him the two most precious
                     things in the city. The Angel brings him the lead heart from the Happy Prince (which wouldn't melt when
                     the rest of the statue was melted down) and the body of the dead Swallow who loved the Happy Prince. God
                     announces that the bird will sing in heaven forevermore, and the Happy Prince will praise God in his
@@ -80,10 +80,10 @@ function HappyPrinceSummary() {
                             https://interestingliterature.com/2021/03/oscar-wilde-the-happy-prince-summary-analysis/
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
+                                <path fillRule="evenodd"
                                     d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5">
                                 </path>
-                                <path fill-rule="evenodd"
+                                <path fillRule="evenodd"
                                     d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z">
                                 </path>
                             </svg>

@@ -12,7 +12,7 @@ function DroversWifeSummary() {
                 <h3 className="mb-4 fw-semibold text-center">Summary</h3>
 
                 {/* Paragraph 1 */}
-                <p className="fs-5">The bush woman is alerted to the fact that a snake has just entered her small, ramshackle
+                <p className="fs-5 pb-2">The bush woman is alerted to the fact that a snake has just entered her small, ramshackle
                     house deep in the Australian outback by her eldest son, Tommy. Tommy goes after the snake with a stick,
                     and the family dog, Alligator, follows suit. Both are unable to catch the snake, however, which slips
                     under the floorboards of the house. Aware that a snake bite so far from help would be deadly, the bush
@@ -21,7 +21,7 @@ function DroversWifeSummary() {
                     reach.</p>
 
                 {/* Paragraph 2 */}
-                <p className="fs-5">The bush woman once dreamt of a more comfortable life and enjoyed being pampered by her
+                <p className="fs-5 pb-2">The bush woman once dreamt of a more comfortable life and enjoyed being pampered by her
                     husband, a drover. Ever since he lost everything in a drought, however, she has grown used to being
                     alone and working tirelessly to ensure her family's survival. Although she does not see her husband very
                     often, he treats her well. However, because he is gone for long periods, she is left to take care of the
@@ -32,7 +32,7 @@ function DroversWifeSummary() {
                     last minute.</p>
 
                 {/* Paragraph 3 */}
-                <p className="fs-5">She has not always won against the assaults of nature; she cried after a flood broke through
+                <p className="fs-5 pb-2">She has not always won against the assaults of nature; she cried after a flood broke through
                     the dam her husband had built, and she lost two of her two best cows to illness. But she has
                     successfully fought off many wild animals and also held her own against men who have come to the door
                     while her husband is away. She has few pleasures in the outback, though she makes time to read the Young
@@ -40,7 +40,7 @@ function DroversWifeSummary() {
                     through the bush with her baby carriage.</p>
 
                 {/* Paragraph 4 */}
-                <p className="fs-5">The bush woman realizes that her candle is about to go out, so she goes to get some wood
+                <p className="fs-5 pb-2">The bush woman realizes that her candle is about to go out, so she goes to get some wood
                     from the woodpile. When she does so, the woodpile collapses, causing her to realize that the Aboriginal
                     man who constructed it must have deceived her by building it hollow. She begins to cry, but soon calms
                     down. Alligator suddenly approaches the partition between the kitchen and the rest of the house, and the
@@ -58,10 +58,10 @@ function DroversWifeSummary() {
                             https://www.litcharts.com/lit/the-drover-s-wife/summary
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
+                                <path fillRule="evenodd"
                                     d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5">
                                 </path>
-                                <path fill-rule="evenodd"
+                                <path fillRule="evenodd"
                                     d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z">
                                 </path>
                             </svg>

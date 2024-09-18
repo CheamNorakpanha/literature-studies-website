@@ -23,7 +23,7 @@ function LettersFromThailandSummary() {
                         <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
 
-                                <p className="fs-5">Suang U left China with two of his friends Kim and Seng. They left China to
+                                <p className="fs-5 pb-2">Suang U left China with two of his friends Kim and Seng. They left China to
                                     find a job so that they could earn more money and send it back to their family. The
                                     first letter shows us that Suang U is a runaway boy who left his hometown to follow his
                                     dream. He is going to Thailand because his friend Seng got a letter from his uncle
@@ -31,19 +31,19 @@ function LettersFromThailandSummary() {
                                     the business, he would have enough money to send home to his mother and also have enough
                                     left over to live off. </p>
 
-                                <p className="fs-5">The letter shows that Suang U truly loves his mother, and as you can read,
+                                <p className="fs-5 pb-2">The letter shows that Suang U truly loves his mother, and as you can read,
                                     he pleads for forgiveness. Suang U tells his mother about a nice man that everybody
                                     likes who is on the boat with him. He has a square face and strong features. Lo Yong
                                     Chua talked to Saung U about whether Suang U can read or write. If Suang U can read,
                                     Yong Chua might be able to find Suang U a job. Suang U's mother taught Suang U to write.
                                 </p>
 
-                                <p className="fs-5">Lo Yong Chua promised to find Suang U's job as a bookkeeper for his cousin
+                                <p className="fs-5 pb-2">Lo Yong Chua promised to find Suang U's job as a bookkeeper for his cousin
                                     Lo Nguan Thong. Saung U mentioned how his dad passed away, and Yong Chua mentioned how
                                     he lost his family. They bonded, and Nguan Thong asked if Saung U wanted to be his son.
                                     Saung U agreed, but he made it clear that he would keep his sae "Tan." </p>
 
-                                <p className="fs-5">Suang U and Seng then get into a fight because Seng insulted Suang U's new
+                                <p className="fs-5 pb-2">Suang U and Seng then get into a fight because Seng insulted Suang U's new
                                     Dad. Seng uses homophobic language toward Lo Yong Chua. Saung U punched Kim to show who
                                     the real man is.</p>
 
@@ -61,7 +61,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">Suang U and his friend, Kim, are safely in Lo Nguan Thong's household, which
+                                <p className="fs-5 pb-2">Suang U and his friend, Kim, are safely in Lo Nguan Thong's household, which
                                     is in a Chinese neighborhood called <b>Sampheng Lane.</b> Suang U is confident about
                                     being a
                                     bookkeeper and forgets about his friend Kim. When Seng saw his uncle at the port, he
@@ -82,7 +82,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">His intention for this letter is to describe his surroundings and living
+                                <p className="fs-5 pb-2">His intention for this letter is to describe his surroundings and living
                                     conditions to his mother. Suang U starts the letter by telling his mother about his new
                                     surroundings. He tells her that he lives in a store with Nguan Thong, his wife, and
                                     their two daughters. The whole building is devoted to the storage of incoming
@@ -108,7 +108,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">This is his second day in Bangkok. At 4 AM, they have to wake up and take a
+                                <p className="fs-5 pb-2">This is his second day in Bangkok. At 4 AM, they have to wake up and take a
                                     bath at the Klong so that the heat won't remain in their body. He also showed them how
                                     to wear phakhaoma. They finished, and as they hurried to the house, Suang U heard
                                     something, he looked up and found himself staring at a girl's face. Kim told him that it
@@ -131,7 +131,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">Suang u started the letter by mentioning that he would spend an hour every
+                                <p className="fs-5 pb-2">Suang u started the letter by mentioning that he would spend an hour every
                                     day teaching Chinese to Ngun Thong's two daughters. He keeps comparing one of the
                                     daughters to the Moon. He offered to teach Chinese and Literature to his boss'
                                     daughters. It started with one of the daughters, the small and dark one who is only 16
@@ -154,7 +154,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">He was annoyed by his boss's presence while teaching. If he's busy, his wife
+                                <p className="fs-5 pb-2">He was annoyed by his boss's presence while teaching. If he's busy, his wife
                                     will take his place. The little daughter's name is "Ang Buai," and she seems to be a
                                     talkative one, and she always talks to Suang U about that. One time she suggested that
                                     it would be fun to learn Thai, and her father disagreed. The older girl's name is "Mui
@@ -176,7 +176,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseSeven" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">The neighbor celebrated the Moon Festival. Thai people made fun of the
+                                <p className="fs-5 pb-2">The neighbor celebrated the Moon Festival. Thai people made fun of the
                                     Chinese moon festival culture. They said that the Moon is not alive. According to
                                     science, it's just a lifeless star. Suang U thinks that the festival is lovely. Then, he
                                     and Kim saw Seng standing across the street. Seng seems to have his eyes on Mui Eng. At
@@ -195,7 +195,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseEight" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">Today, Kim refused to get up, so Saung U took a shower at the canal alone.
+                                <p className="fs-5 pb-2">Today, Kim refused to get up, so Saung U took a shower at the canal alone.
                                     He glanced at the kitchen, and Mui Eng was there, but she didn't pop back in as usual.
                                     Suang U still admires her beauty. She came out and gave Saung U a pink cloth to wipe his
                                     face. He saw a bracelet pinned to one corner of the cloth. Mui Eng left immediately.
@@ -217,7 +217,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseNine" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">Seng visits Nguan Thong's house with his uncle today. Nguan Thong and Tae
+                                <p className="fs-5 pb-2">Seng visits Nguan Thong's house with his uncle today. Nguan Thong and Tae
                                     Lim asked both of them to greet each other. Suang U is happy that he wasn't born a Thai,
                                     so he doesn't have to wai him. A couple of next doors are arguing with each other. The
                                     husband is a drunkard, and he always drinks. The money he has, the drunker he gets. All
@@ -242,18 +242,18 @@ function LettersFromThailandSummary() {
                         <div id="collapseTen" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
 
-                                <p className="fs-5">Suang U expects to have a letter from his mother. There is an argument in
+                                <p className="fs-5 pb-2">Suang U expects to have a letter from his mother. There is an argument in
                                     the household. Mui Eng and her mother argued about the Jade bracelet. Ang Buai wanted to
                                     trade the bracelet for her ring. Mui Eng won't agree. Thaokae Nia went to her husband,
                                     and the argument seemed to get bigger. Suang U tries not to pay attention to the
                                     argument and focus on his work. </p>
 
-                                <p className="fs-5">Nguan Thong doesn't like Thai when his wife says that he is more like a
+                                <p className="fs-5 pb-2">Nguan Thong doesn't like Thai when his wife says that he is more like a
                                     Thai. They went up to search again and couldn't find it. Her father lectured her about
                                     being a wife in the future. Speaking of getting married, Nguang Thong told Mui Eng that
                                     his friend Lim (Seng's uncle) wants Mui Eng to be with Seng. </p>
 
-                                <p className="fs-5">Suang U was stunned and painful. He feels hopeless again because he thinks
+                                <p className="fs-5 pb-2">Suang U was stunned and painful. He feels hopeless again because he thinks
                                     that he doesn't have anything to compete with Seng. Mui Eng has nothing to say about
                                     this. Suang U thought that Mui Eng might just play games with him. They decided to bring
                                     Seng to the house soon. Mui Eng told her father that if she didn't like him, he wouldn't
@@ -274,7 +274,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseEleven" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">Suang U caught up with his father after he took a long trip. They discussed
+                                <p className="fs-5 pb-2">Suang U caught up with his father after he took a long trip. They discussed
                                     many topics <b>[politics],</b> but the one that interests Suang U the most is his
                                     teaching and
                                     someone asking for Mui Eng's hands. Yong Chau revealed that Mui Eng is not impressed by
@@ -296,7 +296,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseTwelve" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">Mui Eng dresses hideously and waits to ask Seng questions. Mui Eng plans to
+                                <p className="fs-5 pb-2">Mui Eng dresses hideously and waits to ask Seng questions. Mui Eng plans to
                                     ask Seng a lot of questions. Nguan Thong asked Suang U to go with him to take a boat to
                                     Khlong Bang Luang. Suang U thought that Nguan Thong might kill him. He thought Ngaun
                                     Thong might know something secret. After a long conversation, Yong Chua tells Suang U
@@ -318,7 +318,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseThirteen" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">In this letter, Suang U mentioned that he got engaged with Mui Eng. He
+                                <p className="fs-5 pb-2">In this letter, Suang U mentioned that he got engaged with Mui Eng. He
                                     mentioned a lot about Thai tradition and said that it is complicated. They criticized
                                     their tradition again. He criticized it but still follow the tradition. Sugar daddy
                                     decided to stop working and rent a house next to Nguan Thong. Suang U was pleased about
@@ -339,7 +339,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseForteen" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">He missed his mother a lot on his wedding day. He felt alone. Before his
+                                <p className="fs-5 pb-2">He missed his mother a lot on his wedding day. He felt alone. Before his
                                     wedding day, he saw Seng. Kim said that Seng cursed Suang U a lot, and Seng even said
                                     that Suang U stole his fiancé. Then, he vowed revenge on Suang U. Suang U also mentioned
                                     that he's a little afraid of her, but he will have her learn that he is her master
@@ -358,7 +358,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseFifteen" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">Suang U mentioned how his life has changed since he got married to Mui Eng.
+                                <p className="fs-5 pb-2">Suang U mentioned how his life has changed since he got married to Mui Eng.
                                     Mui Eng remains in the room for the entire three days until the evening. Then, they
                                     visit their parents' house. Ang Buai wants her father to take Sunday off like Thais.
                                     Thai spend more and work less. On the last day of the year, offer pork, food to gods,
@@ -382,7 +382,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseSixteen" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">My Father-in-law is sick and does not go to foreign doctors. He tried to use
+                                <p className="fs-5 pb-2">My Father-in-law is sick and does not go to foreign doctors. He tried to use
                                     an ancient cure. Ang Buai tried to convince him. Everyone gossips about Suang U taking
                                     over the business (Inheritance). Because Nguan Thong was sick, Suang U had to train Ang
                                     Buai to be in charge of the business. Kim argued with Suang U that Suang U spent so much
@@ -402,7 +402,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseSeventeen" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">There are so many problems mentioned in this letter. Saeng is angry at Ang
+                                <p className="fs-5 pb-2">There are so many problems mentioned in this letter. Saeng is angry at Ang
                                     Buai and bullies her (she holds back her tears, please don't tell anyone), so Suang U
                                     asks Kim not to leave her alone. Later on, Mui Eng questioned why Suang U helped Ang
                                     Buai even when Suang was sick. Mui Eng got mad. So, Mui Eng runs to her father's house
@@ -424,7 +424,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseEighteen" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">There is some good news in this letter. Mui Eng is pregnant. Moreover, the
+                                <p className="fs-5 pb-2">There is some good news in this letter. Mui Eng is pregnant. Moreover, the
                                     guy who bullies Ang Buai has never come back. Ang Buai did a good job in managing the
                                     business. Suang U runs to tell his daddy-in-law, who admits that Ang Buai has been doing
                                     a good job, but it's not like she can go out at night. Suang U and Nguan Thong want
@@ -444,7 +444,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseNineteen" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">Suang U compares life in China and Thailand (insect vs. customers – buy on
+                                <p className="fs-5 pb-2">Suang U compares life in China and Thailand (insect vs. customers – buy on
                                     credit). He visited a Thai family for money, meeting the wife who points to meeting her
                                     husband gambling. Suang U criticized how the husband works again. Despite all of this,
                                     the business went well.</p>
@@ -461,7 +461,7 @@ function LettersFromThailandSummary() {
                         </h2>
                         <div id="collapseTwenty" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p className="fs-5">Now Ang Buai only sells over the counter and not wholesale anymore. Mui Eng
+                                <p className="fs-5 pb-2">Now Ang Buai only sells over the counter and not wholesale anymore. Mui Eng
                                     wants to find her a husband. Suang U visits his dad, who says that he'll transfer the
                                     customers to him, and he talks about Chinese being one family. His mother-in-law talks
                                     to him about emotions during pregnancy. He must not scold his wife during pregnancy.
@@ -484,26 +484,26 @@ function LettersFromThailandSummary() {
                         <div id="collapseTwentyOne" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
 
-                                <p className="fs-5">The Autumnal Feast Day is coming, and Suang U's and his adoptive father's
+                                <p className="fs-5 pb-2">The Autumnal Feast Day is coming, and Suang U's and his adoptive father's
                                     business is doing well due to the customers given by his father-in-law, so everyone is
                                     exhausted. However, Suang U feels a little guilty about being profited from his
                                     father-in-law's business. What bothers him the most now is having to pay his alien tax
                                     to the government since the government officials are very corrupt and have bad
                                     attitudes.</p>
 
-                                <p className="fs-5">Two months later, the new business that Ang Buai manages is doing well, and
+                                <p className="fs-5 pb-2">Two months later, the new business that Ang Buai manages is doing well, and
                                     Suang U kind of likes the new store also when he visits the store, but Muy Eng does not
                                     want to visit her parents since she's embarrassed about her appearance. These days, he
                                     starts to argue a lot with his wife about their future and raising children. While Muy
                                     Eng wants fewer children, her husband wants more, and he's very mad when she brings up
                                     the idea of what he calls "the devil's medicine".</p>
 
-                                <p className="fs-5">Finally, the birth of the baby is coming soon, and Suang U is frustrated and
+                                <p className="fs-5 pb-2">Finally, the birth of the baby is coming soon, and Suang U is frustrated and
                                     drunk and even bothers the midwife from time to time since she does not allow him to see
                                     his wife in labor. He starts to emphasize the pain his wife is going through. In the
                                     end, the baby has arrived, and he's happy that it's a boy.</p>
 
-                                <p className="fs-5">His son is healthy, while his father-in-law is very ill. Before his death,
+                                <p className="fs-5 pb-2">His son is healthy, while his father-in-law is very ill. Before his death,
                                     his coffin and his funeral are handled by Ang Buai, and despite her success he still
                                     wants his younger daughter to get married. His last wish is to teach the next generation
                                     to love their cultures and traditions. Finally, he dies five days before the New Year's
@@ -512,7 +512,7 @@ function LettersFromThailandSummary() {
                                     she's furious about the fact that her husband left her son with nothing and suggest that
                                     they should use it for the factory that Yong Chua is always talking about.</p>
 
-                                <p className="fs-5">Everything is more expensive now that the war is over, and the father and
+                                <p className="fs-5 pb-2">Everything is more expensive now that the war is over, and the father and
                                     son decide on the investment in the factory. However, the process is costly and
                                     time-consuming, but he convinces his father that they will earn it back later on. His
                                     father believes that it is better to sell the products at a low price, which does not
@@ -520,14 +520,14 @@ function LettersFromThailandSummary() {
                                     set up and its name is "Loet Rot" in Thai and <b>"Lo Buan Chai Heng"</b> in Chinese, but
                                     he continues working to sustain his father-in-law's business.</p>
 
-                                <p className="fs-5">Kim has been seeing a girl, named "Chaba", who works in Muy Eng's store. He
+                                <p className="fs-5 pb-2">Kim has been seeing a girl, named "Chaba", who works in Muy Eng's store. He
                                     asks her to marry him, and Suang U promises to help him out. Now, Suang U and his wife
                                     are expecting a second child. After the wedding, Suang U and Kim fight over whether
                                     their family still lives in the village in China. There's also another fight, between
                                     Suang U and his wife, about him helping Kim start his own business. One day, Chaba's
                                     father dies, and Suang U is very curious about the Thai funeral.</p>
 
-                                <p className="fs-5">Weng Khim starts walking and spends so much time with Kim and his wife who
+                                <p className="fs-5 pb-2">Weng Khim starts walking and spends so much time with Kim and his wife who
                                     cook Thai food for the family, but Suang U doesn't seem to like it, and he mostly
                                     complains about the food, even the radios, which always advertise products, and the new
                                     hairstyles. The second baby is coming named Chui Kim. Suang U again complains about the
@@ -548,40 +548,40 @@ function LettersFromThailandSummary() {
                         <div id="collapseTwentyTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
 
-                                <p className="fs-5">Suang U is mad at Kim for gambling, and they are angry at each other because
+                                <p className="fs-5 pb-2">Suang U is mad at Kim for gambling, and they are angry at each other because
                                     Thai joked about the Chinese being stingy. He no longer trusts Kim. He’s thinking of
                                     moving to live near the factory, but his business might be lost to Seng whom he hates.
                                     He visits Li San to transfer the accounts of customers and gets to sell his boats. There
                                     is a shop (bakery) for sale, and everyone is moving. The third grandchild is on the way.
                                 </p>
 
-                                <p className="fs-5">Seng and Suang U finally let everything out (the dirt, the jealousy, and the
+                                <p className="fs-5 pb-2">Seng and Suang U finally let everything out (the dirt, the jealousy, and the
                                     stop). We learn that Kim and Chaba are not here anymore. Mui Eng is looking for new help
                                     that she can trust because the old one steals her stuff but gets caught by the police.
                                     (Suang U’s surprised by the police work). The business is not doing well, and the father
                                     is trying to explain using logic while Thaokae Nia and Mui Eng explain using
                                     superstition, which causes Mui Eng to argue with Ang Buai</p>
 
-                                <p className="fs-5">The 3rd child is here and named Bak Li (not as strong). Weng Khim begins to
+                                <p className="fs-5 pb-2">The 3rd child is here and named Bak Li (not as strong). Weng Khim begins to
                                     be naughty even Sai cannot stand. Suang U takes him to see Kim and Chaba with a baby
                                     girl with a gift of gold. They start to talk about Seng’s upcoming wedding. While the
                                     business is doing well, Suang U worries about Weng Khim learning Thai, and he believes
                                     that it is okay to learn Thai, but Weng Khim should remember that he is Chinese.</p>
 
-                                <p className="fs-5">Weng Khim is pretty much scheduled and controlled by Suang U, so he likes
+                                <p className="fs-5 pb-2">Weng Khim is pretty much scheduled and controlled by Suang U, so he likes
                                     Ang Buai, who sometimes picks him up from school. Everyone gets the invitation to Seng’s
                                     wedding (married to a friend of Ang Buai’s). The fourth child is coming, and Mui Eng
                                     fell in the bathroom, so she cannot have any more children. The fourth baby is a girl,
                                     and Suang U is very upset, and he’s drinking.</p>
 
-                                <p className="fs-5">A houseful of girls. How does a man raise a houseful of girls these days?
+                                <p className="fs-5 pb-2">A houseful of girls. How does a man raise a houseful of girls these days?
                                     Look at their aunt! (Or their mother, throwing a bracelet through the kitchen window to
                                     her father’s penniless clerk.) How much worse will it be in fifteen years? Boat (mother)
                                     or oar (baby), but he doesn’t even want the oar. Suang U complains about Thai people’s
                                     irresponsibility and backstabbing each other, but he sees a young boy who works hard
                                     named Iu Kieng.</p>
 
-                                <p className="fs-5">Mui Eng decides to name the baby girl Meng Chu, which Suang U shows no
+                                <p className="fs-5 pb-2">Mui Eng decides to name the baby girl Meng Chu, which Suang U shows no
                                     interest in. Suang U noticed that Mui Eng is getting older physically, and he smokes
                                     now. He’s seen his first movie kids’ Problem in the theater. He learned about beggars
                                     and renting babies. People! Whatever is the matter with them? For a few coins. some
@@ -591,7 +591,7 @@ function LettersFromThailandSummary() {
                                     useful work, those who are determined and have self-respect. I have seen legless men do
                                     an honest day’s work with their hands.</p>
 
-                                <p className="fs-5">He went to the shrine with Mui Eng and saw the opera company where kids grew
+                                <p className="fs-5 pb-2">He went to the shrine with Mui Eng and saw the opera company where kids grew
                                     up not knowing Thai. According to my informant, it is not an atmosphere of employer and
                                     employees, but a family that looks to grandfather for advice and authority and rewards
                                     justly due. What could be more sensible? He meets the ‘freak.’</p>
@@ -612,13 +612,13 @@ function LettersFromThailandSummary() {
                             data-bs-parent="#accordionExample">
                             <div className="accordion-body">
 
-                                <p className="fs-5">Suang U is working on his Thai for better business and living, but only when
+                                <p className="fs-5 pb-2">Suang U is working on his Thai for better business and living, but only when
                                     his kids are not there, and he also begins to be interested in Thai literature (read his
                                     kid's books and novels). He learned about China's news and allowed his first daughter
                                     Chui Kim to go to school. Weng Khim complains about learning Chinese but is good at
                                     math. </p>
 
-                                <p className="fs-5">Weng Khim changed a lot to be more troublesome, according to Suang U. He
+                                <p className="fs-5 pb-2">Weng Khim changed a lot to be more troublesome, according to Suang U. He
                                     learned more problems about China and many things about the government. He's upset that
                                     Mui Eng badmouths about his mom in front of his kids. Since Weng Khim failed the exam,
                                     he's bashing the school for not valuing customer service skills, and the school
@@ -626,22 +626,22 @@ function LettersFromThailandSummary() {
                                     people who do not send their children to school, and then complain about the school).
                                 </p>
 
-                                <p className="fs-5">The business is doing well to the point they cannot cater to the demand.
+                                <p className="fs-5 pb-2">The business is doing well to the point they cannot cater to the demand.
                                     Weng Khim gets a fever (pneumonia) from playing in the rain, and Yong Chua volunteers to
                                     look after him. When the kid gets better, Yong Chua gets worse. The doctor wants him to
                                     eat something more nutritious, not the sick man's diet. Then, he dies. </p>
 
-                                <p className="fs-5">He decides to integrate Thai culture into his father's funeral (he calls it
+                                <p className="fs-5 pb-2">He decides to integrate Thai culture into his father's funeral (he calls it
                                     Buddhist tradition). Now he's sick, and he's working too hard. He always has the same
                                     nightmare (everyone dies, and he grins). Kim visited him and talked about his new
                                     restaurant and Chaba's hemorrhoid, then bashed Thai food.</p>
 
-                                <p className="fs-5">Mui Eng wants a car, and everyone loves it except Suang U, so she uses her
+                                <p className="fs-5 pb-2">Mui Eng wants a car, and everyone loves it except Suang U, so she uses her
                                     father's money to buy it. His definition of happiness and Hers and Weng Khim's. Chui Kim
                                     is good at housework, and Weng Khim is good at the store. Meng Chu kind of looks like
                                     Suang U's Mom.</p>
 
-                                <p className="fs-5">Weng Khim quits Thai school and only studies Chinese with a Teacher from
+                                <p className="fs-5 pb-2">Weng Khim quits Thai school and only studies Chinese with a Teacher from
                                     Shanghai. Who caused the girl to say such things to WK? Chui Kim is doing very well at
                                     school. And the breakfast table conversation is disastrous. Bak Li wants to be the
                                     beauty queen. And what's wrong with that? He starts to fall in love with his youngest
@@ -662,28 +662,28 @@ function LettersFromThailandSummary() {
                         <div id="collapseTwentyFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
 
-                                <p className="fs-5">Ang Buai forgives Suang U for what he said to her because Mui Eng sent a
+                                <p className="fs-5 pb-2">Ang Buai forgives Suang U for what he said to her because Mui Eng sent a
                                     Pekingnese dog as an apology gift. There is a story of a man beating up his mother which
                                     disgusts Suang U. Moreover, this makes Suang U miss his mother even more and want to
                                     take care of her. </p>
 
-                                <p className="fs-5">The children wanted to stop eating rice from the rice bowl, and they wanted
+                                <p className="fs-5 pb-2">The children wanted to stop eating rice from the rice bowl, and they wanted
                                     to use knives, forks, and plates like their friends. Suang U rejected. Ang Buai wears a
                                     new kind of sarong (hoop skirt). It's belted at the waist and flares out at the bottom
                                     like a bamboo basket. Suang U thinks that it is a waste of cloth. </p>
 
-                                <p className="fs-5">Weng Khim asks permission to go to his friend's birthday, and he also wants
+                                <p className="fs-5 pb-2">Weng Khim asks permission to go to his friend's birthday, and he also wants
                                     to celebrate one too. Suang U likes Meng Chu. Without chatting with her for one day, he
                                     feels like it's not a warm day for him. Suang U buys an expensive TV which surprises
                                     everyone because he spent money on something. Before buying the TV, Suang U made all the
                                     children promise not to spend too much time on the TV. </p>
 
-                                <p className="fs-5">Kim and Seng take Suang U out to a club for the first time in Suang U's
+                                <p className="fs-5 pb-2">Kim and Seng take Suang U out to a club for the first time in Suang U's
                                     life. Suang U visits Kim's restaurant to talk to his old friend and catch up with each
                                     other about what's going on in their life. Suang U wanted to set up Kha Hieng with Weng
                                     Khim. Kha Hieng is the daughter of Kim. </p>
 
-                                <p className="fs-5">Thoakae Nia passed away due to a heart attack. The children don't have close
+                                <p className="fs-5 pb-2">Thoakae Nia passed away due to a heart attack. The children don't have close
                                     bonds with their grandmother, so they don't show much grief. The trade and diplomatic
                                     relations between China and Thailand are not good which creates trouble for Suang U's
                                     business. A man contacts Suang U to join him in smuggling goods into Thailand which can
@@ -705,14 +705,14 @@ function LettersFromThailandSummary() {
                         <div id="collapseTwentyFive" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
 
-                                <p className="fs-5">Suang U was offered a directorship in the Society of Chinese Merchants. The
+                                <p className="fs-5 pb-2">Suang U was offered a directorship in the Society of Chinese Merchants. The
                                     name of the members must be Thai, so most Chinese people apply for citizenship for the
                                     kids. One day, the parents arrange a meeting between Weng Khim and Rose, but he doesn't
                                     like her due to her appearance and cursing, but Mui Eng thinks that cursing is loving in
                                     some families. However, All Weng Khim wants is a brother, so Kim suggests Suang U have
                                     another wife.</p>
 
-                                <p className="fs-5">Society has changed a lot, and children are no longer obligated to take care
+                                <p className="fs-5 pb-2">Society has changed a lot, and children are no longer obligated to take care
                                     of their parents, which makes Suang U afraid of loneliness in old age. Now he's in Hua
                                     Hin. He feels uncomfortable with women's fashion and how young people behave, so he is
                                     worried about the kids, who grow up so fast, and Meng Chu grows to be more like her
@@ -721,16 +721,16 @@ function LettersFromThailandSummary() {
                                     now there is a stricter law and penalty for arson and selling of heroin, and now there
                                     is even a public execution.</p>
 
-                                <p className="fs-5">Due to the recession, the business is not doing well either, but Suang U
+                                <p className="fs-5 pb-2">Due to the recession, the business is not doing well either, but Suang U
                                     believes the reason might be the change in customer's taste. Everyone follows the Farang
                                     and Japanese cultures. Family members are no longer entertained by one another but
                                     instead by television, movies, opera, and massage parlors.</p>
 
-                                <p className="fs-5">Meng Chu wants to stay in school but her father denies so she refuses to go
+                                <p className="fs-5 pb-2">Meng Chu wants to stay in school but her father denies so she refuses to go
                                     back home. Ang Buai argues with Suang U about keeping Meng Chu and hurts his feelings
                                     about not wanting her in the first place.</p>
 
-                                <p className="fs-5">Suang U's hope to return to China seems to be impossible day by day due to
+                                <p className="fs-5 pb-2">Suang U's hope to return to China seems to be impossible day by day due to
                                     the fear of being arrested and the thought of the difficult lifestyle in China. The
                                     regulations are tougher now, and only big firms are capable enough to petition for
                                     exclusive national control of particular products, so Suang U can't compete with them.
@@ -740,29 +740,29 @@ function LettersFromThailandSummary() {
                                     allows you to pay a certain amount of money every month with some interests. Weng Khim
                                     is smoking now, which causes some conflicts with his father.</p>
 
-                                <p className="fs-5">Suang U again feels uncomfortable with the new women's fashion sense and
+                                <p className="fs-5 pb-2">Suang U again feels uncomfortable with the new women's fashion sense and
                                     plastic surgeries, and again everyone is nagging about Ang Buai's marriage until she
                                     spills some of her secrets about a short guy she likes.</p>
 
-                                <p className="fs-5">Weng Khim now stops smoking but all the girls are now very into the new
+                                <p className="fs-5 pb-2">Weng Khim now stops smoking but all the girls are now very into the new
                                     fashion and trend. One day, his kids all go to change their names legally. While the
                                     government is involved in changing the surname, the kids are allowed to choose their own
                                     given names.</p>
 
-                                <p className="fs-5">One day he sees Chui Kim talking with a boy and he is furious. What makes
+                                <p className="fs-5 pb-2">One day he sees Chui Kim talking with a boy and he is furious. What makes
                                     him angrier is the fact that Chui Kim is sponsored to compete in a beauty pageant.
                                     Surprisingly, he lectures the girls about how good his sister-in-law is as a
                                     businesswoman and not someone who abuses her freedom. Now the business and the market
                                     are more competitive as they have promotions and advertisements such as a lucky draw,
                                     quite similar to gambling, which was illegal at the time.</p>
 
-                                <p className="fs-5">Chui Kim will be married soon to Seng Huat, who is very picky about his
+                                <p className="fs-5 pb-2">Chui Kim will be married soon to Seng Huat, who is very picky about his
                                     future wife but falls in love with Chui Kim the moment he sees her. Unfortunately,
                                     according to tradition, the bride's family does not go to the wedding. However, Ang Buai
                                     managed to do so with the kids. Bak Li came back home from the wedding with some stories
                                     of the practices that seemed weird to everyone in the house.</p>
 
-                                <p className="fs-5">Suang U starts to worry about his other children's future such as the
+                                <p className="fs-5 pb-2">Suang U starts to worry about his other children's future such as the
                                     military draft and different ways to get his son out of it his Meng Chu now worries
                                     about her school, and he surprisingly becomes very supportive of her education and her
                                     goals. Weng Khim has become a big disaster for the family. He is drunk every night as
@@ -791,27 +791,27 @@ function LettersFromThailandSummary() {
                         <div id="collapseTwentySix" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
 
-                                <p className="fs-5">Phanni has difficulty fitting in with the family: the laundry, the wake-up,
+                                <p className="fs-5 pb-2">Phanni has difficulty fitting in with the family: the laundry, the wake-up,
                                     and the TV, and even Meng Chu creates a blackout to get her to sleep early. Eventually,
                                     she tries to fit in by doing her laundry and Weng Khim's, and Mui Eng starts to accept
                                     that this is her Karma. Kim is madly trying to return the dowry to Suang U. Phanni
                                     leaves the house with Mui Eng's jewelry, and Weng Khim still supports Phanni.</p>
 
-                                <p className="fs-5">Meng Chu talks to her father about whether he will allow her to get paid for
+                                <p className="fs-5 pb-2">Meng Chu talks to her father about whether he will allow her to get paid for
                                     her job, and Suang U learns that Bak Li has a boyfriend named "Surasak". Meng Chu and
                                     Suang U continue to debate his perspective on the Thai people. Weng Khim is infected
                                     with an STD and has been taking some medicine. He finally bursts out his anger and talks
                                     about his difficulty fitting in the crowd while most Chinese boys are abusing their
                                     wealth (he never gets what he wants). </p>
 
-                                <p className="fs-5">Bak Li is pregnant and needs to get married. After the suggestion from Ang
+                                <p className="fs-5 pb-2">Bak Li is pregnant and needs to get married. After the suggestion from Ang
                                     Buai, and the insult from Chui Kim, Bak Li's father needs to pay for the wedding, while
                                     Surasak stingily pays for the food. He even asks his mom to move in, who is very stingy
                                     as well, and she does not even do laundry regularly. Mui Eng dies in an accident on
                                     their way to the beach because they hire their driver. Meng Chu suggests cremating her
                                     mom and spending the money for charity, although his friends frown upon it. </p>
 
-                                <p className="fs-5">On the funeral day, one of Meng Chu's friends catches his eye. Suang U
+                                <p className="fs-5 pb-2">On the funeral day, one of Meng Chu's friends catches his eye. Suang U
                                     agrees to buy the white dress for Rose for her wedding, but she takes it too generously,
                                     which surprises him. Suang U tends to consult with Meng Chu a lot since she is the only
                                     one left in the house, and she even suggests he marry Ang Buai. Suang U tends to worry
@@ -819,20 +819,20 @@ function LettersFromThailandSummary() {
                                     fact that Suang U has been writing to his mom for 20 years, but only Winyu understands.
                                 </p>
 
-                                <p className="fs-5">Winyu is smarter than most men SU knows, and he gets to teach SU about
+                                <p className="fs-5 pb-2">Winyu is smarter than most men SU knows, and he gets to teach SU about
                                     racism. Meng Chu is marrying Winyu no matter what. She sees marriage as a test of her
                                     relationship, which pisses Suang UU off, and also the fact that he's Thai. His mom pays
                                     a visit (Thai and Chinese are cousins) and witnesses Bak Li's scene. Suang U plans to
                                     move out since the house reminds him too much of the old times, and now Meng Chu has a
                                     job that pays more than her husband. </p>
 
-                                <p className="fs-5">Suang U learns about Meng Chu's wedding from Ang Buai, who also learns that
+                                <p className="fs-5 pb-2">Suang U learns about Meng Chu's wedding from Ang Buai, who also learns that
                                     Suang U will give out bank books to his children while Meng Chu's kept with Ang Buai.
                                     Suang U moves to Thonburi and learns more about Thai and how Chinese children marry
                                     Thais, and even his neighbor persuades him not to live alone. One day, Meng Chu visits
                                     him, and he learns that her husband helps her with housework, and he's shocked. </p>
 
-                                <p className="fs-5">There is a fire in Thonburi, and everyone is shocked, which headlines
+                                <p className="fs-5 pb-2">There is a fire in Thonburi, and everyone is shocked, which headlines
                                     (dramatically) the newspapers. People are helping and stealing, and Winyu and Ang Buai
                                     come to help Suang U. Now Weng Khim and Rose persuade him to come back to live with
                                     them. Rose has been very stingy with her employees, which irritates Suang U. She tends
@@ -840,7 +840,7 @@ function LettersFromThailandSummary() {
                                     Kim and has some great talks about the drawbacks of a Thai marriage license (Chui Kim
                                     does not need to ask her husband to buy land). </p>
 
-                                <p className="fs-5">Suang U lives in Chui Kim's house. Weng Khim becomes very ungrateful. He
+                                <p className="fs-5 pb-2">Suang U lives in Chui Kim's house. Weng Khim becomes very ungrateful. He
                                     said this about Suang U behind his back. <b><u>Damn that fire in Thonburi ... I haven't
                                         had an
                                         night's peaceful sleep since. One lousy year of freedom, and bang! here he was,
@@ -849,7 +849,7 @@ function LettersFromThailandSummary() {
                                         keep
                                         nagging me about it, all right?"</u></b></p>
 
-                                <p className="fs-5">And the next morning, he said something nice to his father's face.
+                                <p className="fs-5 pb-2">And the next morning, he said something nice to his father's face.
                                     <b><u>"Why do
                                         you have to leave us and live with Chui Kim, Papa? Everyone will talk . .. I
                                         mean, how
@@ -864,7 +864,7 @@ function LettersFromThailandSummary() {
                                         Why do you have to look at me like that?"</u></b>
                                 </p>
 
-                                <p className="fs-5">Suang U moves to live with Meng Chu and Bak Li visits. Winyu teaches Suang U
+                                <p className="fs-5 pb-2">Suang U moves to live with Meng Chu and Bak Li visits. Winyu teaches Suang U
                                     again about Thai (farm). Suang U wants to rent a shop, and Khun Surasang helps. Suang U
                                     ended by renting a place to have a small business and stay with Meng Chu. At the end of
                                     the story, Suang U has learned so many things, including the fact that money is
@@ -888,10 +888,10 @@ function LettersFromThailandSummary() {
                             https://en.wikipedia.org/wiki/The_Hitch-Hiker_(short_story)
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
+                                <path fillRule="evenodd"
                                     d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5">
                                 </path>
-                                <path fill-rule="evenodd"
+                                <path fillRule="evenodd"
                                     d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z">
                                 </path>
                             </svg>

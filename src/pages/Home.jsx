@@ -7,10 +7,8 @@ const Home = () => {
     }, []);
 
     return (
-        <div>
-            <div className="pt-5 bg-body-tertiary">
-                <HomeBody />
-            </div>
+        <div className="pt-5">
+            <HomeBody />
         </div>
     );
 };

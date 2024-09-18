@@ -8,7 +8,7 @@ const slideLeft = {
 
 const AboutHeader = () => {
     return (
-        <div className="container" style={{ marginTop: '5rem' }}>
+        <div className="container" style={{ marginTop: '3rem' }}>
             <div className="row justify-content-center text-center mb-2 mb-lg-4">
                 <div className="col-lg-8 col-xxl-7">
                     <motion.h2 className="display-5 fw-bold mb-3"

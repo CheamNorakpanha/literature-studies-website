@@ -12,7 +12,7 @@ function NecklaceSummary() {
                 <h3 className="mb-4 fw-semibold text-center">Summary</h3>
 
                 {/* paragraph 1 */}
-                <p className="fs-5">Mathilde Loisel is “pretty and charming” but feels she has been born into a family of
+                <p className="fs-5 pb-2">Mathilde Loisel is “pretty and charming” but feels she has been born into a family of
                     unfavorable economic status. She was married off to a lowly clerk in the Ministry of Education, who
                     could afford to provide her with a modest, though not uncomfortable, lifestyle. Mathilde feels the
                     burden of her poverty intensely. She regrets her lot in life and spends endless hours imagining a more
@@ -23,7 +23,7 @@ function NecklaceSummary() {
                     to visit her because of the heartbreak it brings her.</p>
 
                 {/* paragraph 2 */}
-                <p className="fs-5">One night, her husband returns home proudly bearing an invitation to a formal party hosted
+                <p className="fs-5 pb-2">One night, her husband returns home proudly bearing an invitation to a formal party hosted
                     by the Ministry of Education. He hopes that Mathilde will be thrilled with the chance to attend an event
                     of this sort, but she is instantly angry and begins to cry. Through her tears, she tells him that she
                     has nothing to wear and he ought to give the invitation to one of his friends whose wife can afford
@@ -32,14 +32,14 @@ function NecklaceSummary() {
                     the sum but agrees that she may have the money.</p>
 
                 {/* paragraph 3 */}
-                <p className="fs-5">As the day of the party approaches, Mathilde starts to behave oddly. She confesses that the
+                <p className="fs-5 pb-2">As the day of the party approaches, Mathilde starts to behave oddly. She confesses that the
                     reason for her behavior is her lack of jewels. Monsieur Loisel suggests that she wear flowers, but she
                     refuses. He implores her to visit Madame Forestier and borrow something from her. Madame Forestier
                     agrees to lend Mathilde her jewels, and Mathilde selects a diamond necklace. She is overcome with
                     gratitude at Madame Forestier's generosity.</p>
 
                 {/* paragraph 4 */}
-                <p className="fs-5">At the party, Mathilde is the most beautiful woman in attendance, and everyone notices her.
+                <p className="fs-5 pb-2">At the party, Mathilde is the most beautiful woman in attendance, and everyone notices her.
                     She is intoxicated by the attention and has an overwhelming sense of self-satisfaction. At 4 a.m., she
                     finally looks for Monsieur Loisel, who has been dozing for hours in a deserted room. He cloaks her bare
                     shoulders in a wrap and cautions her to wait inside, away from the cold night air, while he fetches a
@@ -47,14 +47,14 @@ function NecklaceSummary() {
                     a while before hailing a cab.</p>
 
                 {/* paragraph 5 */}
-                <p className="fs-5">When they finally return home, Mathilde is saddened that the night has ended. As she removes
+                <p className="fs-5 pb-2">When they finally return home, Mathilde is saddened that the night has ended. As she removes
                     her wrap, she discovers that her necklace is no longer around her neck. In a panic, Monsieur Loisel goes
                     outside and retraces their steps. Terrified, she sits and waits for him. He returns home much later, in
                     an even greater panic—he has not found the necklace. He instructs her to write to Madame Forestier and
                     say that she has broken the clasp of the necklace and is getting it mended.</p>
 
                 {/* paragraph 6 */}
-                <p className="fs-5">They continue to look for the necklace. After a week, Monsieur Loisel says they have to see
+                <p className="fs-5 pb-2">They continue to look for the necklace. After a week, Monsieur Loisel says they have to see
                     about replacing it. They visit many jewelers, searching for a similar necklace, and finally find one. It
                     costs 40,000 francs, although the jeweler says he will give it to them for 36,000. The Loisels spend a
                     week scraping up money from all kinds of sources, mortgaging the rest of their existence. After three
@@ -63,14 +63,14 @@ function NecklaceSummary() {
                     case to inspect it. Mathilde is relieved.</p>
 
                 {/* paragraph 7 */}
-                <p className="fs-5">The Loisels began to live a life of crippling poverty. They dismiss their servant and move
+                <p className="fs-5 pb-2">The Loisels began to live a life of crippling poverty. They dismiss their servant and move
                     into an even smaller apartment. Monsieur Loisel works three jobs, and Mathilde spends all her time doing
                     the heavy housework. This misery lasts ten years, but in the end, they have repaid their financial
                     debts. Mathilde's extraordinary beauty is now gone; she looks just like the other women in poor
                     households. They are both tired and irrevocably damaged from these years of hardship.</p>
 
                 {/* paragraph 8 */}
-                <p className="fs-5">One Sunday, while she is out for a walk, Mathilde spots Madame Forestier. Feeling emotional,
+                <p className="fs-5 pb-2">One Sunday, while she is out for a walk, Mathilde spots Madame Forestier. Feeling emotional,
                     she approaches her and offers greetings. Madame Forestier does not recognize her, and when Mathilde
                     identifies herself, Madame Forestier cannot help but exclaim that she looks different. Mathilde says
                     that the change was on her account and explains to her the long saga of losing the necklace, replacing
@@ -86,10 +86,10 @@ function NecklaceSummary() {
                             https://www.sparknotes.com/short-stories/the-necklace/summary/
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
+                                <path fillRule="evenodd"
                                     d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5">
                                 </path>
-                                <path fill-rule="evenodd"
+                                <path fillRule="evenodd"
                                     d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z">
                                 </path>
                             </svg>
