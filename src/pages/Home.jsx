@@ -8,7 +8,7 @@ const Home = () => {
 
     return (
         <div>
-            <div className="bg-body-tertiary">
+            <div className="pt-5 bg-body-tertiary">
                 <HomeBody />
             </div>
         </div>

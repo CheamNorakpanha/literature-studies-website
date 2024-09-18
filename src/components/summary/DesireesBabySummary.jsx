@@ -5,7 +5,7 @@ function DesireesBabySummary() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="container bg-white p-4" style={{ textAlign: 'justify' }}>
+    <div className="container bg-white p-4" style={{ textAlign: 'justify', marginTop: '5rem' }}>
       <h1 className="mb-4 fw-bolder">Desiree's Baby</h1>
       <h2 className="mb-4 fw-bold">By Kate Chopin</h2>
       <h3 className="mt-4 fw-semibold text-center">Summary</h3>

@@ -1,22 +1,53 @@
 import React from "react";
+import { motion } from "framer-motion";
+
+const slideLeft = {
+    initial: { opacity: 0, x: 200 },
+    animate: { opacity: 1, x: 0 }
+};
+
+const slideRight = {
+    initial: { opacity: 0, x: -200 },
+    animate: { opacity: 1, x: 0 }
+};
+
+const AboutBody = () => {
+    return (
+        <div>
+            <BoxOne />
+
+            <BoxTwoAndThree />
+
+            <BoxFourAndFive />
+        </div>
+    );
+};
+export default AboutBody;
+
 
 function BoxOne() {
     return (
-        <div className="p-5 mb-4 bg-white border">
+        <motion.div className="p-5 mb-4 bg-white border"
+            initial={slideLeft.initial}
+            animate={slideLeft.animate}
+            transition={{ duration: 0.6, ease: "easeInOut" }}>
             <div className="container-fluid">
                 <h1 className="display-5 fw-bold col">Welcome to Literature Studies</h1>
                 <p className="fs-4">Welcome to Literature Studies, a unique platform designed for both teachers
                     and students at the Institute of Foreign Language. Our website is a treasure trove of summarized
                     literature, specifically curated for Year 2 and Year 3 students at the DOE, IFL.</p>
             </div>
-        </div>
+        </motion.div>
     );
 }
 
 function BoxTwoAndThree() {
     return (
         <div className="row align-items-md-stretch mb-4">
-            <div className="col-md-6">
+            <motion.div className="col-md-6"
+                initial={slideRight.initial}
+                animate={slideRight.animate}
+                transition={{ duration: 0.8, ease: "easeInOut" }}>
                 <div className="h-100 p-5 text-bg-dark">
                     <h2>Our Origin Story</h2>
                     <p style={{ textAlign: 'justify' }}>The inception of this website is rooted in <i>the CE302 Presentation
@@ -26,8 +57,11 @@ function BoxTwoAndThree() {
                         objective of this assignment was to engage in self-improvement and career-oriented learning
                         by enrolling in and completing a free online course relevant to our future careers.</p>
                 </div>
-            </div>
-            <div className="col-md-6">
+            </motion.div>
+            <motion.div className="col-md-6"
+                initial={slideLeft.initial}
+                animate={slideLeft.animate}
+                transition={{ duration: 1, ease: "easeInOut" }}>
                 <div className="h-100 p-5 bg-white border">
                     <h2>The Fusion of Literature and Technology</h2>
                     <p style={{ textAlign: 'justify' }}>Our founder, <code style={{ fontSize: "16px" }}>Cheam Norakpanha,</code> an
@@ -47,7 +81,7 @@ function BoxTwoAndThree() {
                         in creating educational resources.
                     </p>
                 </div>
-            </div>
+            </motion.div>
         </div>
 
     );
@@ -56,7 +90,10 @@ function BoxTwoAndThree() {
 function BoxFourAndFive() {
     return (
         <div className="row align-items-md-stretch mb-5">
-            <div className="col-md-6">
+            <motion.div className="col-md-6"
+                initial={slideRight.initial}
+                animate={slideRight.animate}
+                transition={{ duration: 1.2, ease: "easeInOut" }}>
                 <div className="h-100 p-5 bg-white border">
                     <h2>Bridging the Gap between Literature and Busy Schedules</h2>
                     <p style={{ textAlign: 'justify' }}>We understand that not everyone has the time or inclination to read an
@@ -65,8 +102,11 @@ function BoxFourAndFive() {
                         comes in. We provide comprehensive summaries of various literature studies, allowing
                         students to grasp the essence of the work without having to read it in its entirety.</p>
                 </div>
-            </div>
-            <div className="col-md-6">
+            </motion.div>
+            <motion.div className="col-md-6"
+                initial={slideLeft.initial}
+                animate={slideLeft.animate}
+                transition={{ duration: 1.4, ease: "easeInOut" }}>
                 <div className="h-100 p-5 text-bg-dark">
                     <h2>Our Mission and Offerings</h2>
                     <p style={{ textAlign: 'justify' }}>Our mission is to make literature more accessible and enjoyable for
@@ -75,21 +115,8 @@ function BoxFourAndFive() {
                         covered. Dive into our collection of summaries and discover the joy of literature, one story
                         at a time.</p>
                 </div>
-            </div>
+            </motion.div>
         </div>
 
     );
 }
-
-const AboutBody = () => {
-    return (
-        <div>
-            <BoxOne />
-
-            <BoxTwoAndThree />
-
-            <BoxFourAndFive />
-        </div>
-    );
-};
-export default AboutBody;

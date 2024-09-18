@@ -5,7 +5,6 @@ import NoPage from "./pages/NoPage";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
-
 import DesireesBaby from "./stories/DesireesBaby";
 import DroversWife from "./stories/DroversWife";
 import HappyPrince from "./stories/HappyPrince";
@@ -18,10 +17,12 @@ import Poison from "./stories/Poison";
 import RomeoAndJuliet from "./stories/RomeoAndJuliet";
 import StoryOfAnHour from "./stories/StoryOfAnHour";
 import VillageByTheSea from "./stories/VillageByTheSea";
+import ScrollToTop from "./ScrollToTop";
 
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -42,8 +43,9 @@ export default function App() {
           <Route path="RomeoAndJuliet" element={<RomeoAndJuliet />} />
           <Route path="StoryOfAnHour" element={<StoryOfAnHour />} />
           <Route path="VillageByTheSea" element={<VillageByTheSea />} />
+          {/* Story */}
 
-          <Route path="*" element={<NoPage/>} />
+          <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -6,7 +6,7 @@ function HappyPrinceSummary() {
       }, []);
     return (
         <div>
-            <div className="container bg-white p-4" style={{ textAlign: 'justify' }}>
+            <div className="container bg-white p-4" style={{ textAlign: 'justify', marginTop: '5rem' }}>
                 <h1 className="mb-4 fw-bolder">The Happy Prince</h1>
                 <h2 className="mb-4 fw-bold">By Oscar Wilde</h2>
                 <h3 className="mb-4 fw-semibold text-center">Summary</h3>

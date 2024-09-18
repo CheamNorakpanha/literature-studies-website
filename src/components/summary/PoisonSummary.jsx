@@ -6,7 +6,7 @@ function PoisonSummary() {
       }, []);
     return (
         <div>
-            <div class="container bg-white p-4" style={{ textAlign: 'justify' }}>
+            <div class="container bg-white p-4" style={{ textAlign: 'justify', marginTop: '5rem' }}>
                 <h1 class="mb-4 fw-bolder">Poison</h1>
                 <h2 class="mb-4 fw-bold">By Roald Dahl</h2>
                 <h3 class="mb-4 fw-semibold text-center">Summary</h3>
