@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import HomeBody from "../components/home/HomeBody";
+import Navbar from "../components/nav/NavBar";
 
 const Home = () => {
     useEffect(() => {
@@ -7,8 +8,12 @@ const Home = () => {
     }, []);
 
     return (
-        <div className="pt-5">
-            <HomeBody />
+        <div>
+            <Navbar />
+
+            <div className="pt-5">
+                <HomeBody />
+            </div>
         </div>
     );
 };

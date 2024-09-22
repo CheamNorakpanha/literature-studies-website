@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import ContactForm from "../components/contact/ContactForm";
 import Gallery from "../components/contact/Gallery";
+import Navbar from "../components/nav/NavBar";
 import '../styles/styles.css';
 
 const Contact = () => {
@@ -9,11 +10,15 @@ const Contact = () => {
     }, []);
 
     return (
-        <div className="pt-5">
-            <ContactForm />
+        <div>
+            <Navbar />
 
-            <div className="my-5">
-                <Gallery />
+            <div className="pt-5">
+                <ContactForm />
+
+                <div className="my-5">
+                    <Gallery />
+                </div>
             </div>
         </div>
     );

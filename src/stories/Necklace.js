@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import NecklaceSummary from '../components/summary/NecklaceSummary';
+import Navbar from "../components/nav/NavBar";
 
 function Necklace() {
     useEffect(() => {
@@ -8,6 +9,8 @@ function Necklace() {
 
     return (
         <div>
+            <Navbar />
+
             <div className="bg-body-tertiary py-4">
                 <NecklaceSummary />
             </div>

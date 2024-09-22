@@ -4,7 +4,6 @@ import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import About from "./pages/About";
 import Home from "./pages/Home";
-import Layout from "./pages/Layout";
 import DesireesBaby from "./stories/DesireesBaby";
 import DroversWife from "./stories/DroversWife";
 import HappyPrince from "./stories/HappyPrince";
@@ -24,7 +23,7 @@ export default function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route>
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />

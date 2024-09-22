@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import DroversWifeSummary from '../components/summary/DroversWifeSummary';
+import Navbar from "../components/nav/NavBar";
 
 function DroversWife() {
     useEffect(() => {
@@ -8,6 +9,8 @@ function DroversWife() {
 
     return (
         <div>
+            <Navbar />
+
             <div className="bg-body-tertiary py-4">
                 <DroversWifeSummary />
             </div>

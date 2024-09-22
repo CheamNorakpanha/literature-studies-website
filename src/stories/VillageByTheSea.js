@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import VillageByTheSeaSummary from '../components/summary/VillageByTheSeaSummary';
+import NavBar from "../components/nav/NavBar";
 
 function VillageByTheSea() {
     useEffect(() => {
@@ -8,6 +9,8 @@ function VillageByTheSea() {
 
     return (
         <div>
+            <NavBar />
+
             <div className="bg-body-tertiary py-4">
                 <VillageByTheSeaSummary />
             </div>

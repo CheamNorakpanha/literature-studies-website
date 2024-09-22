@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import RomeoAndJulietSummary from '../components/summary/RomeoAndJulietSummary';
+import NavBar from "../components/nav/NavBar";
 
 function RomeoAndJuliet() {
     useEffect(() => {
@@ -8,6 +9,8 @@ function RomeoAndJuliet() {
 
     return (
         <div>
+            <NavBar />
+
             <div className="bg-body-tertiary py-4">
                 <RomeoAndJulietSummary />
             </div>

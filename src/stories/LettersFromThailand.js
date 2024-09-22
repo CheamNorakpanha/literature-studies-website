@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import LettersFromThailandSummary from '../components/summary/LettersFromThailandSummary';
+import Navbar from "../components/nav/NavBar";
 
 function LettersFromThailand() {
     useEffect(() => {
@@ -8,6 +9,8 @@ function LettersFromThailand() {
 
     return (
         <div>
+            <Navbar />
+
             <div className="bg-body-tertiary py-4">
                 <LettersFromThailandSummary />
             </div>
