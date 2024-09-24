@@ -1,13 +1,26 @@
+import React, { useEffect } from "react";
 import { ReactTyped } from "react-typed";
 import { Link } from "react-router-dom";
 import Navbar from "../components/nav/NavBar";
+import useLoading from "../hooks/UseLoading";
+import LoadingScreen from "../components/loadingscreen/LoadingScreen";
 
 export default function NoPage() {
+    useEffect(() => {
+        document.title = '404 Page';
+    }, []);
+
+    const loading = useLoading(1000);
+
     return (
         <div>
-            <Navbar />
+            {loading ? (<LoadingScreen />) : (
+                <div>
+                    <Navbar />
 
-            <NoPageComponent />
+                    <NoPageComponent />
+                </div>
+            )}
         </div>
     );
 }
@@ -26,7 +39,7 @@ function NoPageComponent() {
                                     typeSpeed={40}
                                 />
                             </div>
-                            <Link to={"/home"} className="text-bg-dark px-4 py-2 fs-6 border-0">Back to Homepage</Link>
+                            <Link to={"/home"} className="text-bg-dark px-4 py-2 fs-6 border-0 text-decoration-none">Back to Homepage</Link>
                         </div>
                     </div>
                 </div>

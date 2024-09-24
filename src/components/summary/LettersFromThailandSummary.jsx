@@ -1,16 +1,46 @@
 import React, { useEffect } from 'react';
+import { motion } from 'framer-motion';
+import UseAnimations from '../../hooks/UseAnimations';
+
 function LettersFromThailandSummary() {
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
+
+    const { slideLeft, fadeUp } = UseAnimations();
+
     return (
         <div>
             <div className="container bg-white p-4" style={{ textAlign: 'justify', marginTop: '5rem' }}>
-                <h1 className="mb-4 fw-bolder">Letters from Thailand</h1>
-                <h2 className="mb-4 fw-bold">By Botan</h2>
-                <h3 className="mb-4 fw-semibold text-center">Summary</h3>
+                <motion.h1
+                    className="mb-4 fw-bolder" {...slideLeft}
+                    transition={{ duration: 0.4, ease: "easeInOut" }}>Letters from Thailand
+                </motion.h1>
 
-                <div className="accordion" id="accordionExample">
+                <motion.h2
+                    className="mb-4 fw-bold" {...slideLeft}
+                    transition={{ duration: 0.6, ease: "easeInOut" }}>By Botan
+                </motion.h2>
+
+                <motion.h3
+                    className="mt-4 fw-semibold text-center" {...slideLeft}
+                    transition={{ duration: 0.8, ease: "easeInOut" }}
+                >Summary
+                </motion.h3>
+
+                <motion.div
+                    {...slideLeft}
+                    transition={{ duration: 1, ease: "easeInOut" }}>
+                    <h4>Note</h4>
+                    <ul>
+                        <li>There might be mistakes in this summary, as I compiled it quickly as a note to help me
+                            remember the story. </li>
+                        <li>Reading the full story is still important to understand the details of the story. </li>
+                        <li>The summary contains mainly the main events of the story.</li>
+                    </ul>
+                </motion.div>
+
+                <motion.div className="accordion" id="accordionExample" {...fadeUp}>
 
                     {/* Letter 1 */}
                     <div className="accordion-item">
@@ -287,7 +317,7 @@ function LettersFromThailandSummary() {
                     </div>
 
                     {/* Letter 12 */}
-                    <div className="accordion-item">
+                    <div className="accordion-item" style={{ textAlign: 'left' }}>
                         <h2 className="accordion-header">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
@@ -876,18 +906,15 @@ function LettersFromThailandSummary() {
                         </div>
                     </div>
 
-                </div>
+                </motion.div>
 
                 {/* Reference */}
-                {/* <div>
+                <motion.div {...fadeUp}>
                     <h3 className="mt-4 fw-semibold">Reference</h3>
-                    <p className="fs-5">Wikipedia contributors. (2024, February 20). The Hitch-Hiker (short story).
-                        <i>Wikipedia.</i>
-                        <a href="https://en.wikipedia.org/wiki/The_Hitch-Hiker_(short_story)"
-                            target="_blank" rel="noreferrer" className="text-decoration-none">
-                            https://en.wikipedia.org/wiki/The_Hitch-Hiker_(short_story)
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                    <p className="fs-5">Summarized by <i>Senior. Kimleang Yon.{' '}</i>
+                        <a href="https://docs.google.com/document/d/1edjbMyXB5lvF00a5er4OWkKe9XQy5yTF/edit?usp=sharing&ouid=105068389646152264729&rtpof=true&sd=true" target="_blank" rel="noreferrer" className="text-decoration-none">
+                            Letters from Thailand_Summary.docx{' '}
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                                 <path fillRule="evenodd"
                                     d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5">
                                 </path>
@@ -897,7 +924,7 @@ function LettersFromThailandSummary() {
                             </svg>
                         </a>
                     </p>
-                </div> */}
+                </motion.div>
 
             </div>
         </div>

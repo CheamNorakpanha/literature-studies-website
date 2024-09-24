@@ -1,14 +1,12 @@
 import React, { useEffect } from "react";
-import ContactForm from "../components/contact/ContactForm";
-import Gallery from "../components/contact/Gallery";
+import NecklaceSummary from '../components/summary/NecklaceSummary';
 import Navbar from "../components/nav/NavBar";
-import '../styles/styles.css';
 import useLoading from "../hooks/UseLoading";
 import LoadingScreen from "../components/loadingscreen/LoadingScreen";
 
-const Contact = () => {
+function Necklace() {
     useEffect(() => {
-        document.title = 'Contact Us';
+        document.title = "The Necklace - Guy de Maupassant";
     }, []);
 
     const loading = useLoading(1000);
@@ -19,17 +17,13 @@ const Contact = () => {
                 <div>
                     <Navbar />
 
-                    <div className="pt-5">
-                        <ContactForm />
-
-                        <div className="my-5">
-                            <Gallery />
-                        </div>
+                    <div className="bg-body-tertiary py-4">
+                        <NecklaceSummary />
                     </div>
                 </div>
             )}
         </div>
     );
-};
+}
 
-export default Contact;
+export default Necklace;

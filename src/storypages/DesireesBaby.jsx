@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
-import HomeBody from "../components/home/HomeBody";
+import DesireesBabySummary from '../components/summary/DesireesBabySummary';
 import Navbar from "../components/nav/NavBar";
 import UseLoading from "../hooks/UseLoading";
 import LoadingScreen from "../components/loadingscreen/LoadingScreen";
 
-const Home = () => {
+function DesireesBaby() {
     useEffect(() => {
-        document.title = 'Home';
+        document.title = "Desiree's Baby - Kate Chopin";
     }, []);
 
-    const loading = UseLoading(1000); // 1 seconds loading duration
+    const loading = UseLoading(1000);
 
     return (
         <div>
@@ -17,13 +17,13 @@ const Home = () => {
                 <div>
                     <Navbar />
 
-                    <div className="pt-5">
-                        <HomeBody />
+                    <div className="bg-body-tertiary py-4">
+                        <DesireesBabySummary />
                     </div>
                 </div>
             )}
         </div>
     );
-};
+}
 
-export default Home;
+export default DesireesBaby;

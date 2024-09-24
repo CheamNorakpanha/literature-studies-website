@@ -1,36 +1,30 @@
 import React from "react";
 import { motion } from "framer-motion";
-
-const slideLeft = {
-    initial: { opacity: 0, x: 200 },
-    animate: { opacity: 1, x: 0 }
-};
-
-const slideRight = {
-    initial: { opacity: 0, x: -200 },
-    animate: { opacity: 1, x: 0 }
-};
+import UseAnimations from "../../hooks/UseAnimations";
 
 const AboutBody = () => {
+
+    const { slideLeft, slideRight } = UseAnimations();
+
     return (
         <div>
-            <BoxOne />
+            <BoxOne slideLeft={slideLeft} />
 
-            <BoxTwoAndThree />
+            <BoxTwoAndThree slideLeft={slideLeft} slideRight={slideRight} />
 
-            <BoxFourAndFive />
+            <BoxFourAndFive slideLeft={slideLeft} slideRight={slideRight} />
         </div>
     );
 };
 export default AboutBody;
 
-
-function BoxOne() {
+function BoxOne({ slideLeft }) {
     return (
-        <motion.div className="p-5 mb-4 bg-white border"
-            initial={slideLeft.initial}
-            animate={slideLeft.animate}
-            transition={{ duration: 0.6, ease: "easeInOut" }}>
+        <motion.div
+            {...slideLeft}
+            className="p-5 mb-4 bg-white border"
+            transition={{ duration: 0.6, ease: "easeInOut" }}
+        >
             <div className="container-fluid">
                 <h1 className="display-5 fw-bold col">Welcome to Literature Studies</h1>
                 <p className="fs-4">Welcome to Literature Studies, a unique platform designed for both teachers
@@ -41,13 +35,14 @@ function BoxOne() {
     );
 }
 
-function BoxTwoAndThree() {
+function BoxTwoAndThree({ slideLeft, slideRight }) {
     return (
         <div className="row align-items-md-stretch mb-4">
-            <motion.div className="col-md-6"
-                initial={slideRight.initial}
-                animate={slideRight.animate}
-                transition={{ duration: 0.8, ease: "easeInOut" }}>
+            <motion.div
+                {...slideRight}
+                className="col-md-6"
+                transition={{ duration: 0.8, ease: "easeInOut" }}
+            >
                 <div className="h-100 p-5 text-bg-dark">
                     <h2>Our Origin Story</h2>
                     <p style={{ textAlign: 'justify' }}>The inception of this website is rooted in <i>the CE302 Presentation
@@ -58,10 +53,12 @@ function BoxTwoAndThree() {
                         by enrolling in and completing a free online course relevant to our future careers.</p>
                 </div>
             </motion.div>
-            <motion.div className="col-md-6"
-                initial={slideLeft.initial}
-                animate={slideLeft.animate}
-                transition={{ duration: 1, ease: "easeInOut" }}>
+
+            <motion.div
+                {...slideLeft}
+                className="col-md-6"
+                transition={{ duration: 1, ease: "easeInOut" }}
+            >
                 <div className="h-100 p-5 bg-white border">
                     <h2>The Fusion of Literature and Technology</h2>
                     <p style={{ textAlign: 'justify' }}>Our founder, <code style={{ fontSize: "16px" }}>Cheam Norakpanha,</code> an
@@ -87,13 +84,14 @@ function BoxTwoAndThree() {
     );
 }
 
-function BoxFourAndFive() {
+function BoxFourAndFive({ slideLeft, slideRight }) {
     return (
         <div className="row align-items-md-stretch mb-5">
-            <motion.div className="col-md-6"
-                initial={slideRight.initial}
-                animate={slideRight.animate}
-                transition={{ duration: 1.2, ease: "easeInOut" }}>
+            <motion.div
+                {...slideRight}
+                className="col-md-6"
+                transition={{ duration: 1.2, ease: "easeInOut" }}
+            >
                 <div className="h-100 p-5 bg-white border">
                     <h2>Bridging the Gap between Literature and Busy Schedules</h2>
                     <p style={{ textAlign: 'justify' }}>We understand that not everyone has the time or inclination to read an
@@ -103,10 +101,11 @@ function BoxFourAndFive() {
                         students to grasp the essence of the work without having to read it in its entirety.</p>
                 </div>
             </motion.div>
-            <motion.div className="col-md-6"
-                initial={slideLeft.initial}
-                animate={slideLeft.animate}
-                transition={{ duration: 1.4, ease: "easeInOut" }}>
+            <motion.div
+                {...slideLeft}
+                className="col-md-6"
+                transition={{ duration: 1.4, ease: "easeInOut" }}
+            >
                 <div className="h-100 p-5 text-bg-dark">
                     <h2>Our Mission and Offerings</h2>
                     <p style={{ textAlign: 'justify' }}>Our mission is to make literature more accessible and enjoyable for

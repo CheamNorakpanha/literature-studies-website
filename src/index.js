@@ -4,24 +4,23 @@ import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import About from "./pages/About";
 import Home from "./pages/Home";
-import DesireesBaby from "./stories/DesireesBaby";
-import DroversWife from "./stories/DroversWife";
-import HappyPrince from "./stories/HappyPrince";
-import HitchHiker from "./stories/HitchHiker";
-import LettersFromThailand from "./stories/LettersFromThailand";
-import Necklace from "./stories/Necklace";
-import NotPoorJustBroke from "./stories/NotPoorJustBroke";
-import OliverTwist from "./stories/OliverTwist";
-import Poison from "./stories/Poison";
-import RomeoAndJuliet from "./stories/RomeoAndJuliet";
-import StoryOfAnHour from "./stories/StoryOfAnHour";
-import VillageByTheSea from "./stories/VillageByTheSea";
-import ScrollToTop from "./ScrollToTop";
+import DesireesBaby from "./storypages/DesireesBaby";
+import DroversWife from "./storypages/DroversWife";
+import HappyPrince from "./storypages/HappyPrince";
+import HitchHiker from "./storypages/HitchHiker";
+import LettersFromThailand from "./storypages/LettersFromThailand";
+import Necklace from "./storypages/Necklace";
+import NotPoorJustBroke from "./storypages/NotPoorJustBroke";
+import OliverTwist from "./storypages/OliverTwist";
+import Poison from "./storypages/Poison";
+import RomeoAndJuliet from "./storypages/RomeoAndJuliet";
+import StoryOfAnHour from "./storypages/StoryOfAnHour";
+import VillageByTheSea from "./storypages/VillageByTheSea";
 
 export default function App() {
   return (
     <BrowserRouter>
-      <ScrollToTop />
+    
       <Routes>
         <Route>
           <Route index element={<Home />} />
