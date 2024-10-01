@@ -22,7 +22,7 @@ function HomeBody() {
     );
 
     return (
-        <div style={{ marginTop: '3rem' }}>
+        <div style={{ marginTop: '3rem', overflow: 'hidden' }}>
             <div className="row justify-content-center text-center mb-2 mb-lg-4">
                 <div className="col-lg-8 col-xxl-7">
                     <motion.h2
@@ -31,7 +31,7 @@ function HomeBody() {
                     </motion.h2>
                 </div>
             </div>
-            <form className="d-flex justify-content-center pb-4">
+            <form className="d-flex justify-content-center pb-4 overflow-hidden">
                 <motion.input
                     {...slideLeft}
                     transition={{ duration: 0.6, ease: "easeInOut" }}
