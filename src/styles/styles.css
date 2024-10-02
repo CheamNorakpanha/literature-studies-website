@@ -12,19 +12,23 @@ body {
     color: black;
     text-decoration: none;
     cursor: pointer;
+    border-radius: 0;
 }
 
 /* Active Link Styling */
 .nav-link:link:active,
 .nav-link:visited:active {
     color: black;
+    border-radius: 0;
 }
 
 /* Hover Link Styling */
 .nav-link:link:hover,
 .nav-link:visited:hover {
     color: black;
+    border-radius: 0;
 }
+
 
 /* Black & White Image */
 .bw-image {

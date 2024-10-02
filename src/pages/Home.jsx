@@ -14,10 +14,10 @@ const Home = () => {
     return (
         <div>
             {loading ? (<LoadingScreen />) : (
-                <div>
+                <div className="pt-5">
                     <Navbar />
 
-                    <div className="pt-5">
+                    <div>
                         <HomeBody />
                     </div>
                 </div>

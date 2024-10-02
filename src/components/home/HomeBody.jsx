@@ -34,6 +34,7 @@ function HomeBody() {
             <form className="d-flex justify-content-center pb-4 overflow-hidden">
                 <motion.input
                     {...slideLeft}
+                    style={{outline : 'none'}}
                     transition={{ duration: 0.6, ease: "easeInOut" }}
 
                     id="searchBar"
