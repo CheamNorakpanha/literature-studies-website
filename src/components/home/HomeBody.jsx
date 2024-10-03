@@ -31,136 +31,143 @@ function HomeBody() {
                     </motion.h2>
                 </div>
             </div>
-            <form className="d-flex justify-content-center pb-4 overflow-hidden">
-                <motion.input
-                    {...slideLeft}
-                    style={{outline : 'none'}}
-                    transition={{ duration: 0.6, ease: "easeInOut" }}
+            <form className="text-center pb-4 container">
+                <div className="row">
+                    <div className="col">
+                        <motion.input
+                            {...slideLeft}
+                            style={{ outline: 'none' }}
+                            transition={{ duration: 0.6, ease: "easeInOut" }}
 
-                    id="searchBar"
-                    type="search"
-                    className="container border py-3 px-4 fs-5"
-                    placeholder="Search title, author and more..."
-                    aria-label="Search"
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                />
+                            className="bg-body border py-3 px-4 fs-5 w-100"
+                            placeholder="Search title, author and more..."
+                            required
+                            onChange={(e) => setSearchTerm(e.target.value)} />
+                    </div>
+                </div>
             </form>
             {
                 filteredRecords.map(record => (
-                    <motion.div
-                        className="container bg-body p-4 mb-4 border" key={record.id}
+                    <div className="pb-4 container">
+                        <div className="row">
+                            <div className="col">
+                                <motion.div
+                                    className="bg-body p-4 border" key={record.id}
 
-                        //  Framer Motion: fade up while in view
-                        {...fadeUpWhileInView}
-                    >
-                        <h1 className="mb-4 fw-bolder">{record.title}</h1>
-                        <h2 className="mb-4 fw-bold">{record.author}</h2>
-                        <p className="fs-5">{record.desc}</p>
+                                    //  Framer Motion: fade up while in view
+                                    {...fadeUpWhileInView}
+                                >
+                                    <h1 className="mb-4 fw-bolder">{record.title}</h1>
+                                    <h2 className="mb-4 fw-bold">{record.author}</h2>
+                                    <p className="fs-5">{record.desc}</p>
 
-                        {(() => {
-                            // Switch statement based on the value of record.title
-                            switch (record.title) {
+                                    {(() => {
+                                        // Switch statement based on the value of record.title
+                                        switch (record.title) {
 
-                                // If record.title is "Desiree's Baby"
-                                case "Desiree's Baby":
-                                    return (
-                                        <NavLink to="/DesireesBaby" className="text-decoration-none">
-                                            <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
-                                        </NavLink>
-                                    );
+                                            // If record.title is "Desiree's Baby"
+                                            case "Desiree's Baby":
+                                                return (
+                                                    <NavLink to="/DesireesBaby" className="text-decoration-none">
+                                                        <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
+                                                    </NavLink>
+                                                );
 
-                                // If record.title is "The Drover's Wife"
-                                case "The Drover's Wife":
-                                    return (
-                                        <NavLink to="/DroversWife" className="text-decoration-none">
-                                            <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
-                                        </NavLink>
-                                    );
+                                            // If record.title is "The Drover's Wife"
+                                            case "The Drover's Wife":
+                                                return (
+                                                    <NavLink to="/DroversWife" className="text-decoration-none">
+                                                        <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
+                                                    </NavLink>
+                                                );
 
-                                // If record.title is ""
-                                case "The Happy Prince":
-                                    return (
-                                        <NavLink to="/HappyPrince" className="text-decoration-none">
-                                            <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
-                                        </NavLink>
-                                    );
+                                            // If record.title is ""
+                                            case "The Happy Prince":
+                                                return (
+                                                    <NavLink to="/HappyPrince" className="text-decoration-none">
+                                                        <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
+                                                    </NavLink>
+                                                );
 
-                                // If record.title is ""
-                                case "The Hitch-Hiker":
-                                    return (
-                                        <NavLink to="/HitchHiker" className="text-decoration-none">
-                                            <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
-                                        </NavLink>
-                                    );
+                                            // If record.title is ""
+                                            case "The Hitch-Hiker":
+                                                return (
+                                                    <NavLink to="/HitchHiker" className="text-decoration-none">
+                                                        <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
+                                                    </NavLink>
+                                                );
 
-                                // If record.title is ""
-                                case "Letters from Thailand":
-                                    return (
-                                        <NavLink to="/LettersFromThailand" className="text-decoration-none">
-                                            <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
-                                        </NavLink>
-                                    );
+                                            // If record.title is ""
+                                            case "Letters from Thailand":
+                                                return (
+                                                    <NavLink to="/LettersFromThailand" className="text-decoration-none">
+                                                        <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
+                                                    </NavLink>
+                                                );
 
-                                // If record.title is ""
-                                case "The Necklace":
-                                    return (
-                                        <NavLink to="/Necklace" className="text-decoration-none">
-                                            <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
-                                        </NavLink>
-                                    );
+                                            // If record.title is ""
+                                            case "The Necklace":
+                                                return (
+                                                    <NavLink to="/Necklace" className="text-decoration-none">
+                                                        <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
+                                                    </NavLink>
+                                                );
 
-                                // If record.title is ""
-                                case "Not Poor, Just Broke":
-                                    return (
-                                        <NavLink to="/NotPoorJustBroke" className="text-decoration-none">
-                                            <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
-                                        </NavLink>
-                                    );
+                                            // If record.title is ""
+                                            case "Not Poor, Just Broke":
+                                                return (
+                                                    <NavLink to="/NotPoorJustBroke" className="text-decoration-none">
+                                                        <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
+                                                    </NavLink>
+                                                );
 
-                                // If record.title is ""
-                                case "Oliver Twist":
-                                    return (
-                                        <NavLink to="/OliverTwist" className="text-decoration-none">
-                                            <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
-                                        </NavLink>
-                                    );
+                                            // If record.title is ""
+                                            case "Oliver Twist":
+                                                return (
+                                                    <NavLink to="/OliverTwist" className="text-decoration-none">
+                                                        <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
+                                                    </NavLink>
+                                                );
 
-                                // If record.title is ""
-                                case "Poison":
-                                    return (
-                                        <NavLink to="/Poison" className="text-decoration-none">
-                                            <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
-                                        </NavLink>
-                                    );
+                                            // If record.title is ""
+                                            case "Poison":
+                                                return (
+                                                    <NavLink to="/Poison" className="text-decoration-none">
+                                                        <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
+                                                    </NavLink>
+                                                );
 
-                                // If record.title is ""
-                                case "Romeo and Juliet":
-                                    return (
-                                        <NavLink to="/RomeoAndJuliet" className="text-decoration-none">
-                                            <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
-                                        </NavLink>
-                                    );
+                                            // If record.title is ""
+                                            case "Romeo and Juliet":
+                                                return (
+                                                    <NavLink to="/RomeoAndJuliet" className="text-decoration-none">
+                                                        <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
+                                                    </NavLink>
+                                                );
 
-                                // If record.title is ""
-                                case "The Story of an Hour":
-                                    return (
-                                        <NavLink to="/StoryOfAnHour" className="text-decoration-none">
-                                            <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
-                                        </NavLink>
-                                    );
+                                            // If record.title is ""
+                                            case "The Story of an Hour":
+                                                return (
+                                                    <NavLink to="/StoryOfAnHour" className="text-decoration-none">
+                                                        <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
+                                                    </NavLink>
+                                                );
 
-                                // If record.title is ""
-                                case "The Village by the Sea":
-                                    return (
-                                        <NavLink to="/VillageByTheSea" className="text-decoration-none">
-                                            <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
-                                        </NavLink>
-                                    );
-                                default:
-                                    return null;
-                            }
-                        })()}
-                    </motion.div>
+                                            // If record.title is ""
+                                            case "The Village by the Sea":
+                                                return (
+                                                    <NavLink to="/VillageByTheSea" className="text-decoration-none">
+                                                        <button className="text-bg-dark px-4 py-2 fs-6 border-0">Read More</button>
+                                                    </NavLink>
+                                                );
+                                            default:
+                                                return null;
+                                        }
+                                    })()}
+                                </motion.div>
+                            </div>
+                        </div>
+                    </div>
                 ))
             }
         </div>

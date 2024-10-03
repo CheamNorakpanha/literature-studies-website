@@ -17,7 +17,7 @@ function HappyPrince() {
                 <div>
                     <NavBar />
 
-                    <div className="bg-body-tertiary py-4">
+                    <div className="bg-body-tertiary py-4 overflow-hidden">
                         <HappyPrinceSummary />
                     </div>
                 </div>

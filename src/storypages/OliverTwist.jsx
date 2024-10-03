@@ -17,7 +17,7 @@ function OliverTwist() {
                 <div>
                     <NavBar />
 
-                    <div className="bg-body-tertiary py-4">
+                    <div className="bg-body-tertiary py-4 overflow-hidden">
                         <OliverTwistSummary />
                     </div>
                 </div>

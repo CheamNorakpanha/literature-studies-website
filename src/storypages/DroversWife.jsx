@@ -17,7 +17,7 @@ function DroversWife() {
                 <div>
                     <Navbar />
 
-                    <div className="bg-body-tertiary py-4">
+                    <div className="bg-body-tertiary py-4 overflow-hidden">
                         <DroversWifeSummary />
                     </div>
                 </div>

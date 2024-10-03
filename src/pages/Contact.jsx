@@ -19,7 +19,7 @@ const Contact = () => {
                 <div>
                     <Navbar />
 
-                    <div className="pt-5">
+                    <div className="pt-5 overflow-hidden">
                         <ContactForm />
 
                         <div className="my-5">

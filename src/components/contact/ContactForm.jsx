@@ -1,4 +1,4 @@
-import { React, useRef } from "react";
+import { React, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import UseAnimations from "../../hooks/UseAnimations";
 import emailjs from '@emailjs/browser';
@@ -10,6 +10,11 @@ export default function ContactForm() {
     // EmailJS
     const form = useRef();
 
+    // State for alert visibility and message
+    const [alertVisible, setAlertVisible] = useState(false);
+    const [alertMessage, setAlertMessage] = useState("");
+    const [alertType, setAlertType] = useState("success"); // default to success
+
     // Unedit
     const sendEmail = (e) => {
         e.preventDefault();
@@ -20,16 +25,31 @@ export default function ContactForm() {
             })
             .then(
                 () => {
-                    console.log('SUCCESS!');
+                    // console.log('SUCCESS!');
+                    setAlertMessage("Holy guacamole! Your message has been sent.");
+                    setAlertType("success");// Set alert type to success
+                    setAlertVisible(true);
+                    form.current.reset();   // Clear the form after successful submission
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
+                    // console.log('FAILED...', error.text);
+                    setAlertMessage("Failed to send message: " + error.text);
+                    setAlertType("danger"); // Set alert type to danger
+                    setAlertVisible(true);
                 },
             );
     };
 
     return (
         <div className="container" style={{ marginTop: '3rem' }}>
+
+            {alertVisible && (
+                <div className={`alert alert-${alertType} alert-dismissible fade show`} role="alert">
+                    <strong>{alertMessage}</strong>
+                    <button type="button" className="btn-close" onClick={() => setAlertVisible(false)} aria-label="Close"></button>
+                </div>
+            )}
+
             <div className="row justify-content-center text-center mb-2 mb-lg-4">
                 <div className="col-lg-8 col-xxl-7">
                     <motion.h2
@@ -44,6 +64,7 @@ export default function ContactForm() {
                     </motion.p>
                 </div>
             </div>
+
             <motion.div
                 {...slideLeft}
                 transition={{ duration: 0.8, ease: "easeInOut" }}
@@ -59,6 +80,7 @@ export default function ContactForm() {
                                         placeholder="Full Name"
                                         type="text"
                                         name="user_name"
+                                        required
                                         style={{ outline: 'none' }} />
                                 </div>
                             </div>
@@ -69,6 +91,7 @@ export default function ContactForm() {
                                         placeholder="Email"
                                         type="email"
                                         name="user_email"
+                                        required
                                         style={{ outline: 'none' }} />
                                 </div>
                             </div>
@@ -79,6 +102,7 @@ export default function ContactForm() {
                                         placeholder="Your message"
                                         name="message"
                                         rows="4"
+                                        required
                                         style={{ outline: 'none' }}>
                                     </textarea>
                                 </div>

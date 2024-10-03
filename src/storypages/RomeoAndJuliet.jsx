@@ -17,7 +17,7 @@ function RomeoAndJuliet() {
                 <div>
                     <NavBar />
 
-                    <div className="bg-body-tertiary py-4">
+                    <div className="bg-body-tertiary py-4 overflow-hidden">
                         <RomeoAndJulietSummary />
                     </div>
                 </div>

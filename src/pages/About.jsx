@@ -18,7 +18,7 @@ const About = () => {
                 <div>
                     <Navbar />
 
-                    <div className="pt-5">
+                    <div className="pt-5 overflow-hidden">
                         <AboutHeader />
                         <div className="container">
                             <AboutBody />

@@ -17,7 +17,7 @@ function HitchHiker() {
                 <div>
                 <NavBar />
     
-                <div className="bg-body-tertiary py-4">
+                <div className="bg-body-tertiary py-4 overflow-hidden">
                     <HitchHikerSummary />
                 </div>
             </div>

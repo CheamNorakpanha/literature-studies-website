@@ -17,7 +17,7 @@ function VillageByTheSea() {
                 <div>
                     <NavBar />
 
-                    <div className="bg-body-tertiary py-4">
+                    <div className="bg-body-tertiary py-4 overflow-hidden">
                         <VillageByTheSeaSummary />
                     </div>
                 </div>

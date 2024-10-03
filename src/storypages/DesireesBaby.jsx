@@ -17,7 +17,7 @@ function DesireesBaby() {
                 <div>
                     <Navbar />
 
-                    <div className="bg-body-tertiary py-4">
+                    <div className="bg-body-tertiary py-4 overflow-hidden">
                         <DesireesBabySummary />
                     </div>
                 </div>

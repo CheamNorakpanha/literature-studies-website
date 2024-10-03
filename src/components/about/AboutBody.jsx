@@ -26,8 +26,8 @@ function BoxOne({ slideLeft }) {
             transition={{ duration: 0.6, ease: "easeInOut" }}
         >
             <div className="container-fluid">
-                <h1 className="display-5 fw-bold col" >Welcome to Literature Studies</h1>
-                <p className="fs-4" style={{ textAlign: 'justify' }}>Welcome to Literature Studies, a unique platform designed for both teachers
+                <h1 className="display-5 fw-bold col text-center" >Welcome to Literature Studies</h1>
+                <p className="fs-5" style={{ textAlign: 'justify' }}>Welcome to Literature Studies, a unique platform designed for both teachers
                     and students at the Institute of Foreign Language. Our website is a treasure trove of summarized
                     literature, specifically curated for Year 2 and Year 3 students at the DOE, IFL.</p>
             </div>
